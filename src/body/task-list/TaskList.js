@@ -94,7 +94,7 @@ export class TaskList extends Component {
 
                 if (this.state.formControls[field].validationRules.required.state) {
 
-                    if (this.state.formControls[field].value) {
+                    if (value) {
 
                         if (this._isMounted) {
                             this.setState(previousState => ({

@@ -192,7 +192,7 @@ export class PhaseAndTaskList extends Component {
             <div>
                 <ToastContainer autoClose={false} />
 
-                <h3>Add Phase</h3>
+                <h3>Check List</h3>
 
                 <div>
                     {
