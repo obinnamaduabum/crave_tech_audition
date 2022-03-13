@@ -1,6 +1,7 @@
 import './App.css';
 import {Phase} from "./body/phase/Phase";
 import React from "react";
+import {TaskList} from "./body/task-list/TaskList";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
 
             <div className={'separator'}>
               <hr/>
+              <TaskList />
             </div>
           </div>
           <div className="col col-lg-7 col-md-6 col-xs-12">
